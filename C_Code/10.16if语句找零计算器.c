@@ -1,18 +1,21 @@
 #include <stdio.h> 
 int main()
 {
-	//³õÊ¼»¯
+	//åˆå§‹åŒ–
 	int price=0;
 	int bill=0;
-	//¶ÁÈ¡½ğ¶îºÍÆ±Ãæ
-	printf("ÇëÊäÈë½ğ¶î:") ;
+	//è¯»å–é‡‘é¢å’Œç¥¨é¢
+	printf("è¯·è¾“å…¥é‡‘é¢:") ;
 	scanf("%d",&price);
-	printf("ÇëÊäÈëÆ±Ãæ:");
+	printf("è¯·è¾“å…¥ç¥¨é¢:");
 	scanf("%d",&bill);
-	//¼ÆËãÕÒÁã
+	//è®¡ç®—æ‰¾é›¶
 	if (bill>price)
 	{
-	printf("Ó¦¸ÃÕÒÄú%dÔª\n",bill-price);
+	printf("åº”è¯¥æ‰¾æ‚¨%då…ƒ\n",bill-price);
+	}
+	else{
+		printf("æ‚¨çš„é’±ä¸å¤Ÿ");
 	}
 	return 0;
 }
